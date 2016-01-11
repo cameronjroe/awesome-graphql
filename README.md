@@ -11,24 +11,13 @@ If you want to contribute to this list (please do), send me a pull request.
 - [Specification](#spec)
 - [Libraries](#lib)
 	- [Javascript](#lib-js)
-	- [Ruby](#lib-rb)
-	- [PHP](#lib-php)
 	- [Python](#lib-py)
-	- [Java](#lib-java)
-	- [C/C++](#lib-c)
 	- [Go](#lib-go)
-	- [Scala](#lib-scala)
-	- [.NET](#lib-dotnet)
-	- [Elixir](#lib-elixir)
-	- [Haskell] (#lib-haskell)
-	- [SQL](#lib-sql)
 - [Tools](#tools)
 - [Services](#services)
 - [Examples](#example)
 	- [Javascript](#example-js)
-	- [Ruby](#example-rb)
 	- [Go](#example-go)
-	- [Scala](#example-scala)
 	- [Python](#example-python)
 - [Videos](#video)
 - [Posts](#post)
@@ -74,19 +63,6 @@ If you want to contribute to this list (please do), send me a pull request.
 * [relay-sink](https://github.com/acdlite/relay-sink) - Use Relay to fetch and store data outside of a React component.
 * [recompose-relay](https://github.com/acdlite/recompose/tree/master/src/packages/recompose-relay) - Recompose helpers for Relay.
 
-<a name="lib-rb" />
-### Ruby Libraries
-
-* [graphql-ruby](https://github.com/rmosolgo/graphql-ruby) - Ruby implementation of Facebook's GraphQL.
-* [graphql-relay-ruby](https://github.com/rmosolgo/graphql-relay-ruby) - Relay helpers for GraphQL & Ruby.
-* [graphql-parser](https://github.com/Shopify/graphql-parser) - A small ruby gem wrapping the libgraphqlparser C library for parsing GraphQL.
-
-<a name="lib-php" />
-### PHP Libraries
-
-* [graphql-php](https://github.com/webonyx/graphql-php) - A PHP port of GraphQL reference implementation.
-* [laravel-graphql](https://github.com/Folkloreatelier/laravel-graphql) - Facebook GraphQL for Laravel 5.
-
 <a name="lib-py" />
 ### Python Libraries
 
@@ -96,16 +72,6 @@ If you want to contribute to this list (please do), send me a pull request.
 * [graphql-parser-python](https://github.com/tallstreet/graphql-parser-python) - A python wrapper around libgraphqlparser.
 * [graphene](https://github.com/graphql-python/graphene) - A package for creating GraphQL schemas/types in a Pythonic easy way.
 
-<a name="lib-java" />
-### Java Libraries
-
-* [graphql-java](https://github.com/andimarek/graphql-java) - GraphQL Java implementation.
-
-<a name="#lib-c" />
-### C/C++ Libraries
-
-* [libgraphqlparser](https://github.com/graphql/libgraphqlparser) - A GraphQL query parser in C++ with C and C++ APIs.
-
 <a name="lib-go" />
 ### Go Libraries
 
@@ -114,37 +80,6 @@ If you want to contribute to this list (please do), send me a pull request.
 * [graphql](https://github.com/tmc/graphql) - GraphQL parser and server for Go.
 * [c-graphqlparser](https://github.com/tecbot/c-graphqlparser) - Go-gettable version of the libgraphqlparser C library for parsing GraphQL.
 * [tallstreet-graphql](https://github.com/tallstreet/graphql) - GraphQL parser and server for Go that leverages libgraphqlparser
-
-<a name="lib-scala" />
-### Scala Libraries
-
-* [sangria](https://github.com/sangria-graphql/sangria) - Scala GraphQL client and server library.
-* [sangria-relay](https://github.com/sangria-graphql/sangria-relay) - Sangria Relay Support.
-* [graphql-scala](https://github.com/hrosenhorn/graphql-scala) - An attempt to get GraphQL going with Scala.
-
-<a name="lib-dotnet" />
-### .NET Libraries
-
-* [graphql-dotnet](https://github.com/graphql-dotnet/graphql-dotnet) - GraphQL for .NET.
-
-<a name="lib-elixir" />
-### Elixir Libraries
-
-* [graphql](https://github.com/asonge/graphql) - Elixir graphql library.
-* [graphql-elixir](https://github.com/joshprice/graphql-elixir) - GraphQL parser for Elixir.
-* [graphql_parser](https://github.com/aarvay/graphql_parser) - Elixir bindings for [libgraphqlparser](https://github.com/graphql/libgraphqlparser)
-* [plot](https://github.com/peburrows/plot) - GraphQL parser and resolver for Elixir.
-
-<a name="lib-haskell" />
-### Haskell Libraries
-
-* [graphql-haskell](https://github.com/jdnavarro/graphql-haskell) - GraphQL AST and parser for Haskell.
-
-<a name="lib-sql" />
-### SQL Libraries
-
-* [GraphpostgresQL](https://github.com/solidsnack/GraphpostgresQL) - GraphQL for Postgres.
-* [sql-to-graphql](https://github.com/vaffel/sql-to-graphql) - Generate a GraphQL API based on your SQL database structure.
 
 <a name="tools" />
 ## Tools
@@ -181,23 +116,12 @@ If you want to contribute to this list (please do), send me a pull request.
 * [koa-graphql-relay-example](https://github.com/chentsulin/koa-graphql-relay-example) - Example of [koa-graphql](https://github.com/chentsulin/koa-graphql)
 
 
-<a name="example-rb" />
-### Ruby Examples
-
-* [graphql-ruby-demo](https://github.com/rmosolgo/graphql-ruby-demo) - Use graphql-ruby to expose a Rails app.
-
 <a name="example-go" />
 ### Go Examples
 
 * [golang-relay-starter-kit](https://github.com/sogko/golang-relay-starter-kit) - Barebones starting point for a Relay application with Golang GraphQL server.
 * [golang-graphql-playground](https://github.com/graphql-go/playground) - An example Golang GraphQL server written with graphql-go and graphql-relay-go. Try live demo at: http://golanggraphqlplayground-sogko.rhcloud.com
 * [todomvc-relay-go](https://github.com/sogko/todomvc-relay-go) - Port of the React/Relay TodoMVC app, driven by a Golang GraphQL backend.
-
-<a name="example-scala" />
-### Scala Examples
-
-* [sangria-akka-http-example](https://github.com/sangria-graphql/sangria-akka-http-example) - An example GraphQL server written with akka-http and [sangria](http://sangria-graphql.org)
-* [sangria-playground](https://github.com/sangria-graphql/sangria-playground) - An example of GraphQL server written with Play and sangria.
 
 <a name="example-python" />
 ### Python Examples
